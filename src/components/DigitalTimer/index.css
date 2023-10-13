@@ -1,0 +1,130 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, white, #cffcf1);
+  height: 90vh;
+  background-size: cover;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vh;
+}
+.heading {
+  font-family: 'roboto';
+  font-size: 30px;
+  color: #0f172a;
+  font-weight: bold;
+  text-align: center;
+}
+.body-container {
+  display: flex;
+  width: 90%;
+}
+.bg-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+}
+.round-timer {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer {
+  font-family: 'roboto';
+  font-size: 20px;
+  color: aqua;
+  font-weight: bold;
+  margin: 0px;
+}
+.status {
+  font-family: 'roboto';
+  font-size: 15px;
+  color: #0f172a;
+  font-weight: bold;
+  margin: 0px;
+}
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 250px;
+}
+.commands-container {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50px;
+}
+.start-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  background-color: transparent;
+  padding: 0px;
+  height: 30px;
+  border-width: 0px;
+}
+.image {
+  width: 30px;
+  height: 30px;
+}
+.reset-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading-2 {
+  font-family: 'roboto';
+  font-size: 20px;
+  color: #0f172a;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.set-time-container {
+  display: flex;
+  flex-direction: column;
+}
+.description {
+  font-family: 'roboto';
+  font-size: 15px;
+  color: #1e293b;
+  font-weight: 500;
+  text-align: center;
+}
+.increment-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button1 {
+  font-family: 'roboto';
+  font-size: 25px;
+  color: #0f172a;
+  font-weight: bold;
+  background-color: transparent;
+  border-width: 0px;
+}
+.time {
+  font-family: 'roboto';
+  font-size: 20px;
+  color: #0f172a;
+  font-weight: bold;
+  background-image: linear-gradient(to right, lightgreen, #00d9f5);
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 10px;
+}
